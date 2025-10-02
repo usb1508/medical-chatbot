@@ -13,7 +13,6 @@ RUN curl -LsSf https://astral.sh/uv/install.sh | sh
 # Add uv to PATH (installer puts it in ~/.local/bin)
 ENV PATH="/root/.local/bin:$PATH"
 
-
 WORKDIR /app
 
 # Copy dependency files first

@@ -41,7 +41,7 @@ chatmodel = ChatOpenAI(model_name=OPEN_AI_MODEL, temperature=0)
 prompt = ChatPromptTemplate.from_messages(
 	[
 		("system", system_prompt),
-		("user", "Answer the question: {input}"),
+		("user", "Answer the following question: {input}"),
 	]
 )
 
